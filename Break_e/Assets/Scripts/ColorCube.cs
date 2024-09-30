@@ -8,6 +8,7 @@ public class Color : MonoBehaviour
     private GameObject cube;
     [SerializeField]
     private KeyCode key;
+    
     void Update()
     {
         if (Input.GetKey(key))

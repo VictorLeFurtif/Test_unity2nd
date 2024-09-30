@@ -19,7 +19,7 @@ public class jump : MonoBehaviour
     {
      if(Input.GetKeyDown(key))
      {
-         gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 1, gameObject.transform.position.z);
+         gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 3, gameObject.transform.position.z);
      }    
     }
 }

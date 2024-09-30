@@ -5,7 +5,8 @@ using UnityEngine.UIElements;
 
 public class jump : MonoBehaviour
 {
-    public KeyCode key;
+    [SerializeField]
+    private KeyCode key;
     
     // Start is called before the first frame update
     void Start()
@@ -18,7 +19,7 @@ public class jump : MonoBehaviour
     {
      if(Input.GetKeyDown(key))
      {
-         gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 2, gameObject.transform.position.z);
+         gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 1, gameObject.transform.position.z);
      }    
     }
 }

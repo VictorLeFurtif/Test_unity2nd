@@ -6,7 +6,8 @@ using UnityEngine.UIElements;
 
 public class jump : MonoBehaviour
 {
-    public KeyCode key;
+    [SerializeField]
+    private KeyCode key;
     private bool canJump;
     
 
